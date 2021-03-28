@@ -1,7 +1,7 @@
 {
-  "name": "jobly-solution",
+  "name": "jobly.spoono",
   "version": "2.0.0",
-  "description": "",
+  "description": "This is the Express backend for Jobly, version 2.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -15,8 +15,8 @@
     ]
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Darrell L. Mayberry",
+  "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
@@ -31,5 +31,13 @@
   },
   "devDependencies": {
     "supertest": "^5.0.0-0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmayberr/jobly.spoono.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dmayberr/jobly.spoono/issues"
+  },
+  "homepage": "https://github.com/dmayberr/jobly.spoono#readme"
 }
